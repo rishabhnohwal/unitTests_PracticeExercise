@@ -20,12 +20,12 @@ class StringManipulationTests {
 
     @Test
     void givenStringThenReturnVowelCount(){
-        assertEquals(4,StringManipulation.vowelCount("RishAbh nOhwaL"));
+        assertEquals(4,StringManipulation.vowelCount("gear bear"));
     }
 
     @Test
     void givenNoVowelStringThenReturnZeroVowelCount(){
-        assertEquals(0,StringManipulation.vowelCount("MYTH"));
+        assertEquals(0,StringManipulation.vowelCount("gym"));
     }
 
     @Test
@@ -47,7 +47,7 @@ class StringManipulationTests {
 
     @Test
     void givenStringThenReturnCharacterCount(){
-        assertEquals(10,StringManipulation.characterCount("water is dry"));
+        assertEquals(16,StringManipulation.characterCount("welcome to testing"));
     }
 
     @Test
